@@ -54,6 +54,9 @@ body {
     font-size: 18px;
     line-height: 21px;
     color: var(--color-iris);
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 
@@ -156,6 +159,7 @@ body {
     color: var(--color-white);
     background-color: var(--color-iris);
     cursor: pointer;
+    letter-spacing: 0.04em;
 
 }
 
@@ -187,7 +191,6 @@ body {
     font-weight: 500;
     font-size: 20px;
     line-height: 24px;
-
     letter-spacing: 0.02em;
 
     color: #2E2F42;
@@ -208,14 +211,16 @@ body {
   | Services styles (What we are doing)
   |============================
 */
-.services-section {}
+.services-section {
+    background-color: #FFFFFF;
+}
 
 .services-title {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 40px;
+    line-height: 1.11;
     color: #2E2F42;
     text-align: center;
     letter-spacing: 0.02em;
