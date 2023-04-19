@@ -167,6 +167,7 @@ body {
 .hero-btn:focus {
     color: var(--color-white);
     background-color: var(--color-ocean);
+    etter-spacing: 0.04em;
 }
 
 /**
@@ -258,6 +259,7 @@ body {
 .filter-btn:focus {
     background: #404BBF;
     color: #FFFFFF;
+    font-family: var(--primary-font);
 }
 
 /**
@@ -270,7 +272,7 @@ body {
 
 
 
-    background: #F4F4FD;
+    background-color: #F4F4FD;
 }
 
 .team-title {
@@ -286,13 +288,13 @@ body {
 
 }
 
-.team-list {
+.team-list {}
+
+
+
+.team-item {
     background-color: #FFFFFF;
 }
-
-
-
-.team-item {}
 
 .team-img {}
 
