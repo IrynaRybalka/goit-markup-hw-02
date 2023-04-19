@@ -24,6 +24,8 @@
 */
 body {
     font-family: var(--primary-font);
+    color: #434455;
+    background-color: var(--color-white);
 }
 
 /* resert start */
@@ -45,18 +47,15 @@ body {
 
 .nav {}
 
-.header-nav-logo {}
-
-.web-logo {
+.header-nav-logo {
     font-family: var(--secondary-font);
     font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
     color: var(--color-iris);
-
-
 }
+
 
 .studio-logo {
     width: 71px;
@@ -66,7 +65,7 @@ body {
     font-weight: 800;
     font-size: 18px;
     line-height: 21px;
-    color: var(--color-grey)
+    color: var(--color-navy-blue)
 }
 
 .header-nav-list {}
@@ -102,7 +101,7 @@ body {
 
 .header-address-item {}
 
-.header-mail {
+.contacts {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -117,15 +116,6 @@ body {
     color: #404BBF;
 }
 
-.header-tel {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: 0.02em;
-    color: var(--color-slate);
-}
 
 .header-tel:hover,
 .header-tel:focus {
